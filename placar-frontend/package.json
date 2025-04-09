@@ -1,0 +1,48 @@
+{
+  "name": "placar-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "socket.io-client": "^4.8.1",
+    "vue": "^3.2.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-vue": "^9.33.0",
+    "vue-eslint-parser": "^9.4.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:vue/vue3-essential"
+    ],
+    "parser": "vue-eslint-parser",
+    "parserOptions": {
+      "parser": "@babel/eslint-parser",
+      "ecmaVersion": 2020,
+      "sourceType": "module"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
